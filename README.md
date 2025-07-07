@@ -1,11 +1,11 @@
 
-# 🐾 Animal Detection System
+# Animal Detection System
 
 A deep learning-based image classification system that detects and classifies animals into **cats**, **dogs**, or **squirrels**. The system uses Convolutional Neural Networks (CNN) for training on image datasets and is deployed using a Flask web interface.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project was developed as part of the **Artificial Intelligence** coursework at **National Textile University, Faisalabad**.
 
@@ -15,7 +15,7 @@ The model is trained on over 6000+ images and tested on 1200+ images using the f
 
 ---
 
-## 👨‍💻 Group Members
+## Group Members
 
 - **Kanza Kashaf** — 22-NTU-CS-1350  
 - **Muhammad Hassaan Raza** — 22-NTU-CS-1362  
@@ -25,7 +25,7 @@ The model is trained on over 6000+ images and tested on 1200+ images using the f
 
 ---
 
-## 🧠 Model Performance
+## Model Performance
 
 | Dataset        | Accuracy | Loss  |
 |----------------|----------|-------|
@@ -34,9 +34,9 @@ The model is trained on over 6000+ images and tested on 1200+ images using the f
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
-- Python 🐍
+- Python
 - TensorFlow & Keras
 - NumPy
 - Flask (for Web Interface)
@@ -44,7 +44,7 @@ The model is trained on over 6000+ images and tested on 1200+ images using the f
 
 ---
 
-## 🧾 Features
+## Features
 
 - Image classification of cats, dogs, and squirrels.
 - Web interface using Flask for real-time image uploads and prediction.
@@ -54,7 +54,7 @@ The model is trained on over 6000+ images and tested on 1200+ images using the f
 
 ---
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 - **Conv2D** layers for feature extraction
 - **MaxPooling2D** for dimensionality reduction
@@ -64,7 +64,7 @@ The model is trained on over 6000+ images and tested on 1200+ images using the f
 
 ---
 
-## 🧪 Training Process
+## Training Process
 
 ```python
 cnn.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['accuracy'])
@@ -73,25 +73,23 @@ cnn.fit(x=training_set, validation_data=test_set, epochs=120)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
-```
-📦 AnimalDetectionSystem
-├── training_set/
-├── testing_set/
-├── Prediction/
-├── app.py                 # Flask app
-├── model.h5               # Trained model
-├── static/
-│   └── uploads/
-├── templates/
-│   └── index.html
-├── README.md
-```
+AnimalDetectionSystem
+- training_set/
+- testing_set/
+- Prediction/
+- app.py                 # Flask app
+- model.h5               # Trained model
+- static/
+   - uploads/
+   - templates/
+   - index.html
+   - README.md
 
 ---
 
-## 🖼️ Predicting New Images
+## Predicting New Images
 
 ```python
 from keras.preprocessing import image
@@ -111,7 +109,7 @@ elif result[0][2] == 1:
 
 ---
 
-## 🌐 Web Interface
+## Web Interface
 
 The system is integrated with a user-friendly web interface using Flask. It allows users to upload images and receive predictions directly in the browser.
 
@@ -125,13 +123,13 @@ Visit: `http://localhost:5000`
 
 ---
 
-## 📜 License
+## License
 
 This project is intended for educational and academic use only.
 
 ---
 
-## 🤝 Acknowledgments
+## Acknowledgments
 
 - Kaggle for the image datasets  
 - TensorFlow/Keras documentation  
