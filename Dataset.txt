@@ -1,0 +1,7 @@
+Dataset used: https://www.kaggle.com/datasets/alessiocorrado99/animals10
+
+
+out of 10, used 3 classes:
+	1.Dog
+	2.Cat
+	3.Squirrel
