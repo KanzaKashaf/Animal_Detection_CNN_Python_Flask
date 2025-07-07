@@ -17,11 +17,8 @@ The model is trained on over 6000+ images and tested on 1200+ images using the f
 
 ## Group Members
 
-- **Kanza Kashaf** — 22-NTU-CS-1350  
-- **Muhammad Hassaan Raza** — 22-NTU-CS-1362  
-- **Program:** BSAI  
-- **Semester:** 4th  
-- **Instructor:** Mr. Waqar Ahmad
+- **Kanza Kashaf**  
+- **Muhammad Hassaan Raza**
 
 ---
 
@@ -83,9 +80,9 @@ AnimalDetectionSystem
 - model.h5               # Trained model
 - static/
    - uploads/
-   - templates/
+- templates/
    - index.html
-   - README.md
+- README.md
 
 ---
 
@@ -120,12 +117,6 @@ python app.py
 ```
 
 Visit: `http://localhost:5000`
-
----
-
-## License
-
-This project is intended for educational and academic use only.
 
 ---
 
