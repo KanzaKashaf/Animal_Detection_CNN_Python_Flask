@@ -72,17 +72,22 @@ cnn.fit(x=training_set, validation_data=test_set, epochs=120)
 
 ## Project Structure
 
-AnimalDetectionSystem
-- training_set/
-- testing_set/
-- Prediction/
-- app.py                 # Flask app
-- model.h5               # Trained model
-- static/
-   - uploads/
-- templates/
-   - index.html
-- README.md
+Animal_Detection_CNN_Python_Flask
+├── App/
+│   └── app.py                 # Flask app
+│   └── model.h5               # Trained model
+│   └── static/
+│       └──  uploads/
+│   └── templates/
+│       └── index.html
+├── Prediction/
+├── Documentation
+│   └── Documentation
+│   └── PPT
+├── Animal_Detection_ModelTraining.ipynb
+├── Animal_Detection_Trained_Model.keras
+├── Dataset.txt
+├── README.md
 
 ---
 
